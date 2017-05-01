@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- View动画既可以是单个动画，也可以由一系列动画组成 -->
+<!-- set标签标示动画集合，对应AnimationSet类，可以包含若干个动画，并且内部可以嵌套其他动画集合 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    <!-- 表示动画集合所采用的插值器，插值器影响动画的速度 -->
+    android:interpolator="@[package:]anmi/interpolator_resource"
+    <!-- 表示集合中的动画是否和集合共享同一个插值器 -->
+    android:shareInterpolator=["true"|"false"] >
+    <!-- 透明度动画 -->
+    <alpha
+        android:fromAlpha="float"
+        android:toAlpha="float" />
+    <!-- 缩放动画 -->
+    <scale
+        android:fromXScale="float"
+        android:toXScale="float"
+        android:fromYScale="float"
+        android:toYScale="float"
+        android:pivotX="float"
+        android:pivotY="float" />
+    <!-- 平移动画 -->
+    <translate
+        android:fromXDelta="float"
+        android:toXDelta="float"
+        android:fromYDelta="float"
+        android:toYDelta="float" />
+    <!-- 旋转动画 -->
+    <rotate
+        android:fromDegrees="float"
+        android:toDegrees="float"
+        android:pivotX="float"
+        android:pivotY="float" />
+        
+    <set>
+        ...
+    </set>
+</set>

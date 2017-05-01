@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-listitem
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        <!-- 图片的资源id -->
+        android:src="@[package:]drawable/drawable_resource"
+        android:id="@[+][package:]id/resource_name"
+        android:top="dimension"
+        android:right="dimension"
+        android:bottom="dimension"
+        android:left="dimension" />
+</layer-listitem>

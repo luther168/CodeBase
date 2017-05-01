@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- .9格式图片可以自动地根据所需的宽/高进行相应的缩放并保证不失真 -->
+<nine-patch
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    <!-- 图片的资源id -->
+    android:src="@[package:]drawable/drawable_resource"
+    <!-- 是否开启抖动效果 -->
+    android:dither=["true"|"false"] />

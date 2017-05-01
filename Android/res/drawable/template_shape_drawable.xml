@@ -1,0 +1,44 @@
+<!-- 详见Android开发艺术探索6.2.2 -->
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    <!-- 表示图形的形状，选项依次为矩形、椭圆、横线、圆环 -->
+    android:shape=["rectangle"|"oval"|"line"|"ring"] >
+    <!-- 表示四个角的角度 -->
+    <corners
+        android:radius="integer"
+        android:topLeftRadius="integer"
+        android:topRightRadius="integer"
+        android:bottomLeftRadius="integer"
+        android:bottomRightRadius="integer" />
+    <!-- 与solid标签互相排斥，表示渐变效果 -->
+    <gradient
+        android:angle="integer"
+        android:centerX="integer"
+        android:centerY="integer"
+        android:centerColor="integer"
+        android:endColor="color"
+        android:gradientRadius="integer"
+        android:startColor="color"
+        android:type=["linear"|"radial"|"sweep"]
+        android:useLevel=["true"|"false"] />
+    <!-- 表示包含此shape的View的空白 -->
+    <padding
+        android:left="integer"
+        android:top="integer"
+        android:right="integer"
+        android:bottom="integer" />
+    <!-- 表示shape的宽高 -->
+    <size
+        android:width="integer"
+        android:height="integer" />
+    <!-- 表示纯色填充 -->
+    <solid
+        android:color="color" />
+    <!-- 描边 -->
+    <stroke
+        android:width="integer"
+        android:color="color"
+        android:dashWidth="integer"
+        android:dashGap="integer" />
+</shape>

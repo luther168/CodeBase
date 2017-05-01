@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    <!-- 其固有大小是否不随其状态的变化而变化 -->
+    android:constantSize=["true"|"false"]
+    <!-- 是否开启抖动效果 -->
+    android:dither=["true"|"false"]
+    <!-- 其padding是否随着其状态的改变而改变 -->
+    android:variablePadding=["true"|"false"] >
+    <item
+        <!-- 图片的资源id -->
+        android:src="@[package:]drawable/drawable_resource"
+        android:state_pressed=["true"|"false"]
+        android:state_focused=["true"|"false"]
+        android:state_hovered=["true"|"false"]
+        android:state_selected=["true"|"false"]
+        android:state_checkable=["true"|"false"]
+        android:state_checked["true"|"false"]
+        android:state_enabled=["true"|"false"]
+        android:state_activated=["true"|"false"]
+        android:state_window_focused=["true"|"false"] />
+</selector>

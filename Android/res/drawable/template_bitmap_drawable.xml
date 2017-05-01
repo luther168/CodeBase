@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    <!-- 图片的资源id -->
+    android:src="@[package:]drawable/drawable_resource"
+    <!-- 是否开启图片抗锯齿功能 -->
+    android:antialias=["true"|"false"]
+    <!-- 是否开启抖动效果 -->
+    android:dither=["true"|"false"]
+    <!-- 是否开启过滤效果 -->
+    android:filter=["true"|"false"]
+    <!-- 当图片小于容器的尺寸时，设置此选项可以对图片进行定位 -->
+    android:gravity=["top"|"bottom"|"left"|"right"|"center_vertical"
+        |"fill_vertical"|"center_horizontal"|"fill_horizontal"
+        |"center"|"fill"|"clip_vertical"|"clip_horizontal"]
+    <!-- 纹理映射 -->
+    android:mipMap=["true"|"false"]
+    <!-- 平铺模式，开启后gravity属性无效，其中clamp图片四周的像素会扩展到周围区域 -->
+    android:tileMode=["disable"|"clamp"|"repeat"|"mirror"] />
