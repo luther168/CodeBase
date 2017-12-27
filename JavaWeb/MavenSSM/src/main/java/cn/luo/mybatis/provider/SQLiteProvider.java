@@ -4,7 +4,7 @@ import cn.luo.utils.StringUtils;
 
 import javax.naming.InvalidNameException;
 
-public class CommonProvider {
+public class SQLiteProvider {
 
     public String selectAll(String tableName) throws InvalidNameException {
         return select(null, tableName, null, 0, 0);
