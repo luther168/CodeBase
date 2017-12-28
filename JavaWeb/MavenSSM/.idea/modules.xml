@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MavenSM/MavenSM.iml" filepath="$PROJECT_DIR$/MavenSM/MavenSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreModel/CoreModel.iml" filepath="$PROJECT_DIR$/CoreModel/CoreModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenSM/CoreModel.iml" filepath="$PROJECT_DIR$/MavenSM/CoreModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenSSM.iml" filepath="$PROJECT_DIR$/MavenSSM.iml" />
     </modules>
   </component>
