@@ -645,7 +645,7 @@
       <workItem from="1514368062636" duration="2122000" />
       <workItem from="1514423344165" duration="348000" />
       <workItem from="1514424654698" duration="6587000" />
-      <workItem from="1514444055470" duration="1436000" />
+      <workItem from="1514444055470" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor the code">
       <created>1514355781984</created>
@@ -675,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514429345565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add BaseProvider and the property of the MySQL">
+      <created>1514445501617</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514445501617</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -711,7 +718,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23741000" />
+    <option name="totallyTimeSpent" value="23752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
