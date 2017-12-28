@@ -9,6 +9,7 @@
     <modules>
         <module>CoreModel</module>
         <module>App</module>
+        <module>WebApp</module>
     </modules>
     <name>MavenSSM Maven Webapp</name>
     <url>http://maven.apache.org</url>

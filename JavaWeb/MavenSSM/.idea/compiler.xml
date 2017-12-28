@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="App" />
         <module name="CoreModel" />
+        <module name="WebApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -15,6 +16,7 @@
       <module name="CoreModel" target="1.7" />
       <module name="MavenSM" target="1.7" />
       <module name="MavenSSM" target="1.5" />
+      <module name="WebApp" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/CoreModel/CoreModel.iml" filepath="$PROJECT_DIR$/CoreModel/CoreModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenSM/CoreModel.iml" filepath="$PROJECT_DIR$/MavenSM/CoreModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenSSM.iml" filepath="$PROJECT_DIR$/MavenSSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebApp/WebApp.iml" filepath="$PROJECT_DIR$/WebApp/WebApp.iml" />
     </modules>
   </component>
 </project>

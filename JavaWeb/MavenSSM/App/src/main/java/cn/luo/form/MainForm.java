@@ -1,4 +1,4 @@
-package cn.luo.ui;
+package cn.luo.form;
 
 import cn.luo.mybatis.DBHelper;
 
