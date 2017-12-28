@@ -5,7 +5,7 @@ import cn.luo.utils.StringUtils;
 
 import javax.naming.InvalidNameException;
 
-public class SQLiteProvider implements BaseProvider {
+public class MySQLProvider implements BaseProvider {
 
     public String selectAll(String tableName) throws InvalidNameException {
         return select(null, tableName, null, 0, 0);
@@ -35,11 +35,10 @@ public class SQLiteProvider implements BaseProvider {
 
         if (limit > 0) {
             builder.append(" LIMIT ");
-            builder.append(limit);
             if (offset > 0) {
-                builder.append(" OFFSET ");
-                builder.append(offset);
+                builder.append(offset).append(",");
             }
+            builder.append(limit);
         }
 
         return builder.toString();

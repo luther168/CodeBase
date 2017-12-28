@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="test.db" uuid="3d629b66-7070-4934-acb3-fdc34801256b">
-      <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+    <data-source name="luo@localhost" uuid="5ffb7a67-2772-4676-9466-d3f85df4a8e5">
+      <database-info product="MySQL" version="5.7.20-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
-      <auth-required>false</auth-required>
-      <introspection-schemas>*:main</introspection-schemas>
+      <user-name>root</user-name>
+      <introspection-schemas>*:luo</introspection-schemas>
     </data-source>
   </component>
 </project>
