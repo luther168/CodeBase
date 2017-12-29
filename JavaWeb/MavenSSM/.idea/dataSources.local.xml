@@ -11,5 +11,12 @@
       <user-name>root</user-name>
       <introspection-schemas>*:luo</introspection-schemas>
     </data-source>
+    <data-source name="default.db" uuid="22aaae56-c786-4f97-b94c-3c98f24ca619">
+      <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+      <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
   </component>
 </project>

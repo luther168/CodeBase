@@ -12,11 +12,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="App" target="1.7" />
-      <module name="CoreModel" target="1.7" />
+      <module name="App" target="1.8" />
+      <module name="CoreModel" target="1.8" />
       <module name="MavenSM" target="1.7" />
       <module name="MavenSSM" target="1.5" />
-      <module name="WebApp" target="1.7" />
+      <module name="WebApp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
